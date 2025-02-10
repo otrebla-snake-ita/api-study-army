@@ -9,6 +9,7 @@ public class Item
     public ItemTypeId ItemTypeId { get; set; }
     public required string Name { get; set; }
     public string? Description { get; set; }
+    public int Quantity { get; set; }
 
     #region Navigation Properties
 

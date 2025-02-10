@@ -9,7 +9,7 @@ public class Country
     #region Navigation Properties
 
     public ICollection<Army> Armies { get; set; } = [];
-    public ICollection<Death> Deaths { get; set; } = [];
+    public ICollection<Decease> Deceases { get; set; } = [];
 
     #endregion
 }

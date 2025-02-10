@@ -9,7 +9,7 @@ public class Vehicle
     public VehicleTypeId VehicleTypeId { get; set; }
     public required string Name { get; set; }
     public string? Description { get; set; }
-    public DateOnly PurchaseDate { get; set; }
+    public int Quantity { get; set; }
 
     #region Navigation Properties
 

@@ -9,6 +9,7 @@ public class AmmunitionType
 
     #region Navigation Properties
 
+    public ICollection<Weapon> Weapons { get; set; } = [];
     public ICollection<Ammunition> Ammunitions { get; set; } = [];
 
     #endregion

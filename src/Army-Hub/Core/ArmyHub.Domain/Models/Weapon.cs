@@ -6,16 +6,18 @@ public class Weapon
 {
     public uint Id { get; set; }
     public uint StorageId { get; set; }
-    public uint AmmunitionId { get; set; }
+    public AmmunitionTypeId AmmunitionTypeId { get; set; }
     public WeaponTypeId WeaponTypeId { get; set; }
     public required string Name { get; set; }
     public string? Description { get; set; }
+    public int Quantity { get; set; }
 
     #region Navigation Properties
 
     public Storage? Storage { get; set; }
-    public Ammunition? Ammunition { get; set; }
+    public AmmunitionType? AmmunitionType { get; set; }
     public WeaponType? WeaponType { get; set; }
+    public ICollection<Vehicle> Vehicles { get; set; } = [];
 
     #endregion
 }

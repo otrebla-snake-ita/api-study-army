@@ -12,6 +12,8 @@ public class Storage
     public Army? Army { get; set; }
     public ICollection<Vehicle> Vehicles { get; set; } = [];
     public ICollection<Weapon> Weapons { get; set; } = [];
+    public ICollection<Item> Items { get; set; } = [];
+    public ICollection<Ammunition> Ammunitions { get; set; } = [];
 
     #endregion
 }

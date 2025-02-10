@@ -10,6 +10,7 @@ public class Unit
     #region Navigation Properties
 
     public Group? Group { get; set; }
+    public ICollection<Soldier> Soldiers { get; set; } = [];
 
     #endregion
 }
