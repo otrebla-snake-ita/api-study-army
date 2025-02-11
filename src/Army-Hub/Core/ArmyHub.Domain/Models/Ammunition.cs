@@ -11,7 +11,7 @@ public class Ammunition
 
     #region Navigation Properties
 
-    public Ammunition? AmmunitionType { get; set; }
+    public AmmunitionType? AmmunitionType { get; set; }
 
     #endregion
 }
