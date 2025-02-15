@@ -5,7 +5,7 @@ namespace ArmyHub.Domain.Models;
 public class Grade
 {
     public GradeId Id { get; set; }
-    public required string Description { get; set; }
+    public required string Name { get; set; }
 
     #region Navigation Properties
 

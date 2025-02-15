@@ -5,7 +5,7 @@ namespace ArmyHub.Domain.Models;
 public class MilitaryRole
 {
     public MilitaryRoleId Id { get; set; }
-    public string? Description { get; set; }
+    public string? Name { get; set; }
 
     #region Navigation Properties 
 

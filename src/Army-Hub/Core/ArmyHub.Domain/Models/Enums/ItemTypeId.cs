@@ -1,6 +1,6 @@
 ﻿namespace ArmyHub.Domain.Models.Enums;
 
-public enum ItemTypeId
+public enum ItemTypeId : ushort
 {
     Unknown = 1,
     Medical,

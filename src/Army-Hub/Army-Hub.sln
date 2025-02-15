@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{698CFFC3-A362-4F74-BFA6-1A86A8E5C0E9}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArmyHub.Domain", "Core\ArmyHub.Domain\ArmyHub.Domain.csproj", "{993F0A91-1CEE-46EF-8CB2-8F2EF729FF18}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArmyHub.Persistence.SqlServer", "Infrastructure\ArmyHub.Persistence.SqlServer\ArmyHub.Persistence.SqlServer.csproj", "{AE00992B-BE9B-47F9-B918-BE518DB36204}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArmyHub.Persistence.SqlServer.Configurations", "Infrastructure\ArmyHub.Persistence.SqlServer.Configurations\ArmyHub.Persistence.SqlServer.Configurations.csproj", "{049980BC-2B0F-46D4-B98E-1AE334D57FF3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{AE00992B-BE9B-47F9-B918-BE518DB36204}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE00992B-BE9B-47F9-B918-BE518DB36204}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE00992B-BE9B-47F9-B918-BE518DB36204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{049980BC-2B0F-46D4-B98E-1AE334D57FF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{049980BC-2B0F-46D4-B98E-1AE334D57FF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{049980BC-2B0F-46D4-B98E-1AE334D57FF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{049980BC-2B0F-46D4-B98E-1AE334D57FF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,5 +47,6 @@ Global
 		{2938AFFC-B911-4532-9E16-8FFAFF36EF5D} = {698CFFC3-A362-4F74-BFA6-1A86A8E5C0E9}
 		{993F0A91-1CEE-46EF-8CB2-8F2EF729FF18} = {00E249FA-1DE5-4853-83D7-B1EAF9859008}
 		{AE00992B-BE9B-47F9-B918-BE518DB36204} = {09435EFF-3D47-42D4-9414-5F9BFAB4A4DA}
+		{049980BC-2B0F-46D4-B98E-1AE334D57FF3} = {09435EFF-3D47-42D4-9414-5F9BFAB4A4DA}
 	EndGlobalSection
 EndGlobal

@@ -1,6 +1,6 @@
 ﻿namespace ArmyHub.Domain.Models.Enums;
 
-public enum WeaponTypeId
+public enum WeaponTypeId : ushort
 {
     Pistol = 1,
     Rifle,
