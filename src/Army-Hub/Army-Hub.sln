@@ -15,8 +15,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArmyHub.Domain", "Core\Army
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArmyHub.Persistence.SqlServer", "Infrastructure\ArmyHub.Persistence.SqlServer\ArmyHub.Persistence.SqlServer.csproj", "{AE00992B-BE9B-47F9-B918-BE518DB36204}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArmyHub.Persistence.SqlServer.Configurations", "Infrastructure\ArmyHub.Persistence.SqlServer.Configurations\ArmyHub.Persistence.SqlServer.Configurations.csproj", "{049980BC-2B0F-46D4-B98E-1AE334D57FF3}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,10 +33,6 @@ Global
 		{AE00992B-BE9B-47F9-B918-BE518DB36204}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE00992B-BE9B-47F9-B918-BE518DB36204}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE00992B-BE9B-47F9-B918-BE518DB36204}.Release|Any CPU.Build.0 = Release|Any CPU
-		{049980BC-2B0F-46D4-B98E-1AE334D57FF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{049980BC-2B0F-46D4-B98E-1AE334D57FF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{049980BC-2B0F-46D4-B98E-1AE334D57FF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{049980BC-2B0F-46D4-B98E-1AE334D57FF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,6 +41,5 @@ Global
 		{2938AFFC-B911-4532-9E16-8FFAFF36EF5D} = {698CFFC3-A362-4F74-BFA6-1A86A8E5C0E9}
 		{993F0A91-1CEE-46EF-8CB2-8F2EF729FF18} = {00E249FA-1DE5-4853-83D7-B1EAF9859008}
 		{AE00992B-BE9B-47F9-B918-BE518DB36204} = {09435EFF-3D47-42D4-9414-5F9BFAB4A4DA}
-		{049980BC-2B0F-46D4-B98E-1AE334D57FF3} = {09435EFF-3D47-42D4-9414-5F9BFAB4A4DA}
 	EndGlobalSection
 EndGlobal

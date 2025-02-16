@@ -4,7 +4,7 @@ using ArmyHub.Domain.Models.Enums;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace ArmyHub.Persistence.SqlServer.Configurations.EntityConfigurations;
+namespace ArmyHub.Persistence.EntityConfigurations;
 
 public sealed class GradeConfiguration : IEntityTypeConfiguration<Grade>
 {

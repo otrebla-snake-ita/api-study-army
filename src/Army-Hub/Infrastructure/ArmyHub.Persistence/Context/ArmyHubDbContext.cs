@@ -1,12 +1,8 @@
 ﻿using ArmyHub.Domain.Models;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Reflection;
 
-namespace ArmyHub.Persistence.SqlServer.Context;
+namespace ArmyHub.Persistence.Context;
 
 internal class ArmyHubDbContext : DbContext
 {
@@ -44,5 +40,7 @@ internal class ArmyHubDbContext : DbContext
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
+
+        modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
     }
 }

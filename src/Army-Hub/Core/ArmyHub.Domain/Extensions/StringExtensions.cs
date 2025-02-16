@@ -2,6 +2,7 @@
 
 namespace ArmyHub.Domain.Extensions;
 
+// TODO: Move in separate "common" assembly?
 public static class StringExtensions
 {
     public static string SplitCapitalLetters(this string str)

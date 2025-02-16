@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace ArmyHub.Persistence.SqlServer.Configurations.EntityConfigurations;
+namespace ArmyHub.Persistence.EntityConfigurations;
 
 public sealed class DeceaseConfiguration : IEntityTypeConfiguration<Decease>
 {
@@ -25,6 +25,11 @@ public sealed class DeceaseConfiguration : IEntityTypeConfiguration<Decease>
 
         builder.Property(d => d.DeceaseDate)
             .IsRequired();
+
+        builder.HasOne(d => d.Soldier)
+            .WithOne(s => s.Decease)
+            .HasForeignKey<Decease>(s => s.SoldierId)
+            .HasConstraintName("FK_Decease_Soldier");
 
         builder.ToTable("Deceases");
     }

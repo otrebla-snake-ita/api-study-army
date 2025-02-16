@@ -4,7 +4,7 @@ using ArmyHub.Domain.Extensions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace ArmyHub.Persistence.SqlServer.Configurations.EntityConfigurations;
+namespace ArmyHub.Persistence.EntityConfigurations;
 
 public sealed class AmmunitionTypeConfiguration : IEntityTypeConfiguration<AmmunitionType>
 {
